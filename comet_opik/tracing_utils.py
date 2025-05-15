@@ -3,8 +3,6 @@ from opik import track
 
 from agentsapi.utils.utils import init
 
-# os.environ["OPIK_API_KEY"] = "8ZknAbpvgziZh32HtMouxzuse"
-# os.environ["OPIK_WORKSPACE"] = "anjijava16"
 
 init()
 client = openai.OpenAI()

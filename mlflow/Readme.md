@@ -19,3 +19,6 @@ We're going to start a local MLflow Tracking Server, which we will connect to fo
 
 
 mlflow server --host 127.0.0.1 --port 8080
+
+# URL 
+http://127.0.0.1:8080/#/experiments/0?searchFilter=&orderByKey=attributes.start_time&orderByAsc=false&startTime=ALL&lifecycleFilter=Active&datasetsFilter=W10%3D&modelVersionFilter=All%20Runs&selectedColumns=attributes.%60Source%60,attributes.%60Models%60,attributes.%60Dataset%60&compareRunCharts=
